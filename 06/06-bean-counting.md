@@ -8,6 +8,14 @@ Write a function countBs that takes a string as its only argument and returns a 
 Next, write a function called countChar that behaves like countBs, except it takes a second argument that indicates the character that is to be counted (rather than counting only uppercase “B” characters). Rewrite countBs to make use of this new function.
 
 
+
+Vous pouvez obtenir le N-ième caractère, ou lettre, d'une chaîne en écrivant "string"[N]. La valeur renvoyée sera une chaîne contenant un seul caractère (par exemple, "b"). Le premier caractère a la position 0, ce qui fait que le dernier se trouve à la position string.length - 1. En d'autres termes, une chaîne de deux caractères a une longueur de 2 et ses caractères ont les positions 0 et 1.
+
+Écrivez une fonction countBs qui prend une chaîne comme seul argument et renvoie un nombre qui indique le nombre de caractères majuscules « B » dans la chaîne.
+
+Ensuite, écrivez une fonction appelée countChar qui se comporte comme countBs, sauf qu'elle prend un deuxième argument qui indique le caractère à compter (au lieu de compter uniquement les caractères majuscules « B »). Réécrivez countBs pour utiliser cette nouvelle fonction.
+
+
 ```js
 
 console.log(countBs("BBC"));
